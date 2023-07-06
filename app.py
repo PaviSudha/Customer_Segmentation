@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the model
-classifier = pickle.load(open('C:\\Users\\pavithra\\model_deployment_customer\\classifier.pkl', 'rb'))
+classifier = pickle.load(open('classifier.pkl', 'rb'))
 
 # Page configuration
 st.set_page_config(page_title='Customer Segmentation Web App', layout='centered')
